@@ -1,0 +1,94 @@
+/* base */
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,AppleGothic,sans-serif; font-size:12px;}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%}
+ul,ol{list-style:none}
+fieldset,img{border:0;}
+address{font-style:normal}
+
+/* a-style */
+a{color:#333;text-decoration:none}
+a:hover,a:active,a:focus{color:#333;text-decoration:underline}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+div{
+    position: relative;
+}
+
+.wrap {
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.wrow {
+    overflow-y: hidden;
+    margin-left: -15px !important;
+    min-width: 1280px;
+    width: 1280px;
+    background-image: url("../image/galaxy.jpg");
+    background-size: 100%;
+    background-position: -200px 0px;
+}
+
+.a, .b {
+    height: 800px;
+    position: relative;
+    padding: 0 !important;
+}
+
+
+.a > .row {
+    margin-bottom: 20px;
+}
+
+.anav {
+    background-color: #66512c;
+    height: 70px;
+}
+
+.aproduc {
+    background-color: #5e5e5e;
+    height: 590px;
+}
+
+.arating {
+    background-color: springgreen;
+    height: 90px;
+}
+
+.box {
+    background-color: #ffaa97;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 45px 0
+}
+
+.winfo {
+    margin-top: 25px;
+    height: 712px;
+    padding-left: 60px;
+}
+
+#info {
+    padding: 30px 20px 0 20px !important;
+    height: inherit;
+    background-color: slategrey;
+
+}
+
+#infoin {
+
+    box-shadow: 0 2px 12px 3px rgba(0, 0, 0, 0.23), 0 0 0 1px rgba(0, 0, 0, 0.13);
+    background-color: #204d74;
+    height: 672px;
+}
